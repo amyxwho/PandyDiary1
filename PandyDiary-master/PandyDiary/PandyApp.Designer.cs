@@ -73,7 +73,7 @@
             this.prgbar_rest.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.prgbar_rest.TabIndex = 3;
             this.prgbar_rest.Maximum = 100;
-            this.prgbar_rest.Value = 99;
+            this.prgbar_rest.Value = 0;
             // 
             // prgbar_social
             // 
@@ -151,6 +151,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(709, 380);
+            this.Load += new System.EventHandler(this.PandyApp_Load);
             this.Controls.Add(this.lbl_food);
             this.Controls.Add(this.lbl_rest);
             this.Controls.Add(this.lbl_social);

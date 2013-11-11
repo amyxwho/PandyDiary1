@@ -28,54 +28,67 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.TouchSenHeadOn = new System.Windows.Forms.PictureBox();
+            this.CollarPictureLike = new System.Windows.Forms.PictureBox();
+            this.RFIDBodyOff = new System.Windows.Forms.PictureBox();
             this.TouchSenHeadOff = new System.Windows.Forms.PictureBox();
+            this.TouchSenLShoulder = new System.Windows.Forms.PictureBox();
+            this.TouchSenRShoulder = new System.Windows.Forms.PictureBox();
+            this.SpeakerOff = new System.Windows.Forms.PictureBox();
+            this.TouchSenBellyOff = new System.Windows.Forms.PictureBox();
+            this.TouchSenBellyOn = new System.Windows.Forms.PictureBox();
+            this.TouchSenHeadOn = new System.Windows.Forms.PictureBox();
             this.ChargerOff = new System.Windows.Forms.PictureBox();
             this.ChargerOn = new System.Windows.Forms.PictureBox();
             this.RFIDMouthOff = new System.Windows.Forms.PictureBox();
             this.RFIDMouthOn = new System.Windows.Forms.PictureBox();
-            this.SpeakerOff = new System.Windows.Forms.PictureBox();
             this.SpeakerOn = new System.Windows.Forms.PictureBox();
-            this.TouchSenRShoulder = new System.Windows.Forms.PictureBox();
             this.TouchSenRShoulderOn = new System.Windows.Forms.PictureBox();
             this.TouchSenLShoulderOn = new System.Windows.Forms.PictureBox();
-            this.TouchSenLShoulder = new System.Windows.Forms.PictureBox();
             this.RFIDBodyOn = new System.Windows.Forms.PictureBox();
-            this.RFIDBodyOff = new System.Windows.Forms.PictureBox();
             this.VibrationOff = new System.Windows.Forms.PictureBox();
             this.VibrationOn = new System.Windows.Forms.PictureBox();
             this.PandyVisDesign = new System.Windows.Forms.PictureBox();
-            this.TouchSenBellyOn = new System.Windows.Forms.PictureBox();
-            this.TouchSenBellyOff = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.TouchSenHeadOn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.CollarPictureLike)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RFIDBodyOff)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TouchSenHeadOff)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TouchSenLShoulder)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TouchSenRShoulder)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SpeakerOff)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TouchSenBellyOff)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TouchSenBellyOn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TouchSenHeadOn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ChargerOff)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ChargerOn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RFIDMouthOff)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RFIDMouthOn)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SpeakerOff)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SpeakerOn)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TouchSenRShoulder)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TouchSenRShoulderOn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TouchSenLShoulderOn)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TouchSenLShoulder)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RFIDBodyOn)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.RFIDBodyOff)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.VibrationOff)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.VibrationOn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PandyVisDesign)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TouchSenBellyOn)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TouchSenBellyOff)).BeginInit();
             this.SuspendLayout();
             // 
-            // TouchSenHeadOn
+            // CollarPictureLike
             // 
-            this.TouchSenHeadOn.Image = global::WindowsFormsApplication1.Properties.Resources.pressuresensoron;
-            this.TouchSenHeadOn.Location = new System.Drawing.Point(150, 103);
-            this.TouchSenHeadOn.Name = "TouchSenHeadOn";
-            this.TouchSenHeadOn.Size = new System.Drawing.Size(48, 44);
-            this.TouchSenHeadOn.TabIndex = 17;
-            this.TouchSenHeadOn.TabStop = false;
+            this.CollarPictureLike.Image = global::WindowsFormsApplication1.Properties.Resources.bluecollar;
+            this.CollarPictureLike.Location = new System.Drawing.Point(414, -67);
+            this.CollarPictureLike.Name = "CollarPictureLike";
+            this.CollarPictureLike.Size = new System.Drawing.Size(173, 284);
+            this.CollarPictureLike.TabIndex = 20;
+            this.CollarPictureLike.TabStop = false;
+            this.CollarPictureLike.Visible = false;
+            // 
+            // RFIDBodyOff
+            // 
+            this.RFIDBodyOff.BackColor = System.Drawing.SystemColors.Control;
+            this.RFIDBodyOff.Image = global::WindowsFormsApplication1.Properties.Resources.rfid;
+            this.RFIDBodyOff.Location = new System.Drawing.Point(303, 380);
+            this.RFIDBodyOff.Name = "RFIDBodyOff";
+            this.RFIDBodyOff.Size = new System.Drawing.Size(64, 72);
+            this.RFIDBodyOff.TabIndex = 4;
+            this.RFIDBodyOff.TabStop = false;
             // 
             // TouchSenHeadOff
             // 
@@ -85,6 +98,60 @@
             this.TouchSenHeadOff.Size = new System.Drawing.Size(48, 44);
             this.TouchSenHeadOff.TabIndex = 16;
             this.TouchSenHeadOff.TabStop = false;
+            // 
+            // TouchSenLShoulder
+            // 
+            this.TouchSenLShoulder.Image = global::WindowsFormsApplication1.Properties.Resources.pressuresensorblack___Copy;
+            this.TouchSenLShoulder.Location = new System.Drawing.Point(94, 315);
+            this.TouchSenLShoulder.Name = "TouchSenLShoulder";
+            this.TouchSenLShoulder.Size = new System.Drawing.Size(47, 41);
+            this.TouchSenLShoulder.TabIndex = 6;
+            this.TouchSenLShoulder.TabStop = false;
+            // 
+            // TouchSenRShoulder
+            // 
+            this.TouchSenRShoulder.Image = global::WindowsFormsApplication1.Properties.Resources.pressuresensorblack___Copy;
+            this.TouchSenRShoulder.Location = new System.Drawing.Point(384, 315);
+            this.TouchSenRShoulder.Name = "TouchSenRShoulder";
+            this.TouchSenRShoulder.Size = new System.Drawing.Size(47, 41);
+            this.TouchSenRShoulder.TabIndex = 9;
+            this.TouchSenRShoulder.TabStop = false;
+            // 
+            // SpeakerOff
+            // 
+            this.SpeakerOff.Image = global::WindowsFormsApplication1.Properties.Resources.speaker;
+            this.SpeakerOff.Location = new System.Drawing.Point(234, 64);
+            this.SpeakerOff.Name = "SpeakerOff";
+            this.SpeakerOff.Size = new System.Drawing.Size(62, 60);
+            this.SpeakerOff.TabIndex = 11;
+            this.SpeakerOff.TabStop = false;
+            // 
+            // TouchSenBellyOff
+            // 
+            this.TouchSenBellyOff.Image = global::WindowsFormsApplication1.Properties.Resources.pressuresensor;
+            this.TouchSenBellyOff.Location = new System.Drawing.Point(234, 393);
+            this.TouchSenBellyOff.Name = "TouchSenBellyOff";
+            this.TouchSenBellyOff.Size = new System.Drawing.Size(48, 42);
+            this.TouchSenBellyOff.TabIndex = 19;
+            this.TouchSenBellyOff.TabStop = false;
+            // 
+            // TouchSenBellyOn
+            // 
+            this.TouchSenBellyOn.Image = global::WindowsFormsApplication1.Properties.Resources.pressuresensoron;
+            this.TouchSenBellyOn.Location = new System.Drawing.Point(234, 393);
+            this.TouchSenBellyOn.Name = "TouchSenBellyOn";
+            this.TouchSenBellyOn.Size = new System.Drawing.Size(48, 42);
+            this.TouchSenBellyOn.TabIndex = 18;
+            this.TouchSenBellyOn.TabStop = false;
+            // 
+            // TouchSenHeadOn
+            // 
+            this.TouchSenHeadOn.Image = global::WindowsFormsApplication1.Properties.Resources.pressuresensoron;
+            this.TouchSenHeadOn.Location = new System.Drawing.Point(150, 103);
+            this.TouchSenHeadOn.Name = "TouchSenHeadOn";
+            this.TouchSenHeadOn.Size = new System.Drawing.Size(48, 44);
+            this.TouchSenHeadOn.TabIndex = 17;
+            this.TouchSenHeadOn.TabStop = false;
             // 
             // ChargerOff
             // 
@@ -107,9 +174,9 @@
             // RFIDMouthOff
             // 
             this.RFIDMouthOff.Image = global::WindowsFormsApplication1.Properties.Resources.rfid;
-            this.RFIDMouthOff.Location = new System.Drawing.Point(293, 209);
+            this.RFIDMouthOff.Location = new System.Drawing.Point(284, 199);
             this.RFIDMouthOff.Name = "RFIDMouthOff";
-            this.RFIDMouthOff.Size = new System.Drawing.Size(52, 48);
+            this.RFIDMouthOff.Size = new System.Drawing.Size(71, 71);
             this.RFIDMouthOff.TabIndex = 13;
             this.RFIDMouthOff.TabStop = false;
             // 
@@ -122,15 +189,6 @@
             this.RFIDMouthOn.TabIndex = 12;
             this.RFIDMouthOn.TabStop = false;
             // 
-            // SpeakerOff
-            // 
-            this.SpeakerOff.Image = global::WindowsFormsApplication1.Properties.Resources.speaker;
-            this.SpeakerOff.Location = new System.Drawing.Point(234, 64);
-            this.SpeakerOff.Name = "SpeakerOff";
-            this.SpeakerOff.Size = new System.Drawing.Size(62, 60);
-            this.SpeakerOff.TabIndex = 11;
-            this.SpeakerOff.TabStop = false;
-            // 
             // SpeakerOn
             // 
             this.SpeakerOn.Image = global::WindowsFormsApplication1.Properties.Resources.speakeron;
@@ -139,15 +197,6 @@
             this.SpeakerOn.Size = new System.Drawing.Size(62, 60);
             this.SpeakerOn.TabIndex = 10;
             this.SpeakerOn.TabStop = false;
-            // 
-            // TouchSenRShoulder
-            // 
-            this.TouchSenRShoulder.Image = global::WindowsFormsApplication1.Properties.Resources.pressuresensorblack___Copy;
-            this.TouchSenRShoulder.Location = new System.Drawing.Point(384, 315);
-            this.TouchSenRShoulder.Name = "TouchSenRShoulder";
-            this.TouchSenRShoulder.Size = new System.Drawing.Size(47, 41);
-            this.TouchSenRShoulder.TabIndex = 9;
-            this.TouchSenRShoulder.TabStop = false;
             // 
             // TouchSenRShoulderOn
             // 
@@ -167,33 +216,14 @@
             this.TouchSenLShoulderOn.TabIndex = 7;
             this.TouchSenLShoulderOn.TabStop = false;
             // 
-            // TouchSenLShoulder
-            // 
-            this.TouchSenLShoulder.Image = global::WindowsFormsApplication1.Properties.Resources.pressuresensorblack___Copy;
-            this.TouchSenLShoulder.Location = new System.Drawing.Point(94, 315);
-            this.TouchSenLShoulder.Name = "TouchSenLShoulder";
-            this.TouchSenLShoulder.Size = new System.Drawing.Size(47, 41);
-            this.TouchSenLShoulder.TabIndex = 6;
-            this.TouchSenLShoulder.TabStop = false;
-            // 
             // RFIDBodyOn
             // 
             this.RFIDBodyOn.Image = global::WindowsFormsApplication1.Properties.Resources.rfidon;
-            this.RFIDBodyOn.Location = new System.Drawing.Point(293, 382);
+            this.RFIDBodyOn.Location = new System.Drawing.Point(303, 380);
             this.RFIDBodyOn.Name = "RFIDBodyOn";
-            this.RFIDBodyOn.Size = new System.Drawing.Size(74, 76);
+            this.RFIDBodyOn.Size = new System.Drawing.Size(62, 72);
             this.RFIDBodyOn.TabIndex = 5;
             this.RFIDBodyOn.TabStop = false;
-            // 
-            // RFIDBodyOff
-            // 
-            this.RFIDBodyOff.BackColor = System.Drawing.SystemColors.Control;
-            this.RFIDBodyOff.Image = global::WindowsFormsApplication1.Properties.Resources.rfid;
-            this.RFIDBodyOff.Location = new System.Drawing.Point(303, 393);
-            this.RFIDBodyOff.Name = "RFIDBodyOff";
-            this.RFIDBodyOff.Size = new System.Drawing.Size(52, 50);
-            this.RFIDBodyOff.TabIndex = 4;
-            this.RFIDBodyOff.TabStop = false;
             // 
             // VibrationOff
             // 
@@ -222,69 +252,54 @@
             this.PandyVisDesign.TabIndex = 0;
             this.PandyVisDesign.TabStop = false;
             // 
-            // TouchSenBellyOn
-            // 
-            this.TouchSenBellyOn.Image = global::WindowsFormsApplication1.Properties.Resources.pressuresensoron;
-            this.TouchSenBellyOn.Location = new System.Drawing.Point(234, 393);
-            this.TouchSenBellyOn.Name = "TouchSenBellyOn";
-            this.TouchSenBellyOn.Size = new System.Drawing.Size(48, 42);
-            this.TouchSenBellyOn.TabIndex = 18;
-            this.TouchSenBellyOn.TabStop = false;
-            // 
-            // TouchSenBellyOff
-            // 
-            this.TouchSenBellyOff.Image = global::WindowsFormsApplication1.Properties.Resources.pressuresensor;
-            this.TouchSenBellyOff.Location = new System.Drawing.Point(234, 393);
-            this.TouchSenBellyOff.Name = "TouchSenBellyOff";
-            this.TouchSenBellyOff.Size = new System.Drawing.Size(48, 42);
-            this.TouchSenBellyOff.TabIndex = 19;
-            this.TouchSenBellyOff.TabStop = false;
-            // 
             // PandyVisDesg
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(666, 718);
+            this.Controls.Add(this.CollarPictureLike);
+            this.Controls.Add(this.RFIDBodyOff);
+            this.Controls.Add(this.TouchSenHeadOff);
+            this.Controls.Add(this.TouchSenLShoulder);
+            this.Controls.Add(this.TouchSenRShoulder);
+            this.Controls.Add(this.SpeakerOff);
             this.Controls.Add(this.TouchSenBellyOff);
             this.Controls.Add(this.TouchSenBellyOn);
             this.Controls.Add(this.TouchSenHeadOn);
-            this.Controls.Add(this.TouchSenHeadOff);
             this.Controls.Add(this.ChargerOff);
             this.Controls.Add(this.ChargerOn);
             this.Controls.Add(this.RFIDMouthOff);
             this.Controls.Add(this.RFIDMouthOn);
-            this.Controls.Add(this.SpeakerOff);
             this.Controls.Add(this.SpeakerOn);
-            this.Controls.Add(this.TouchSenRShoulder);
             this.Controls.Add(this.TouchSenRShoulderOn);
             this.Controls.Add(this.TouchSenLShoulderOn);
-            this.Controls.Add(this.TouchSenLShoulder);
             this.Controls.Add(this.RFIDBodyOn);
-            this.Controls.Add(this.RFIDBodyOff);
             this.Controls.Add(this.VibrationOff);
             this.Controls.Add(this.VibrationOn);
             this.Controls.Add(this.PandyVisDesign);
             this.Name = "PandyVisDesg";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.TouchSenHeadOn)).EndInit();
+            this.Load += new System.EventHandler(this.PandyVisDesg_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.CollarPictureLike)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RFIDBodyOff)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TouchSenHeadOff)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TouchSenLShoulder)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TouchSenRShoulder)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SpeakerOff)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TouchSenBellyOff)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TouchSenBellyOn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TouchSenHeadOn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ChargerOff)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ChargerOn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.RFIDMouthOff)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.RFIDMouthOn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.SpeakerOff)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SpeakerOn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TouchSenRShoulder)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TouchSenRShoulderOn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TouchSenLShoulderOn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TouchSenLShoulder)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.RFIDBodyOn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.RFIDBodyOff)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.VibrationOff)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.VibrationOn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PandyVisDesign)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TouchSenBellyOn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TouchSenBellyOff)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -310,5 +325,6 @@
         private System.Windows.Forms.PictureBox TouchSenHeadOn;
         private System.Windows.Forms.PictureBox TouchSenBellyOn;
         private System.Windows.Forms.PictureBox TouchSenBellyOff;
+        private System.Windows.Forms.PictureBox CollarPictureLike;
     }
 }

@@ -15,10 +15,19 @@ namespace WindowsFormsApplication1
     public partial class PandyApp : Form
     {
         private RFID rfid;
-   //     private Form2 form2 = new Form2();
+        PandyVisDesg Pandy = new PandyVisDesg();
         public PandyApp()
         {
             InitializeComponent();
+
+            
+         
+            Pandy.Show();
+
+        }
+
+        private void PandyApp_Load(object sender, EventArgs e)
+        {
             rfid = new RFID();
             rfid.Attach += new AttachEventHandler(rfid_Attach);
 
@@ -28,16 +37,8 @@ namespace WindowsFormsApplication1
 
             rfid.Tag += new TagEventHandler(rfid_Tag);
             rfid.TagLost += new TagEventHandler(rfid_TagLost);
+
             rfid.open();
-            
-         //   PandyVisDesg Pandy = new PandyVisDesg();
-           // Pandy.Show();
-
-        }
-
-        private void PandyApp_Load()
-        {
-
         }
 
         //hook up to touch/pressure sensor
@@ -74,7 +75,7 @@ namespace WindowsFormsApplication1
        {
             if (prgbar_rest.Value < prgbar_rest.Maximum)
             {
-                prgbar_rest.Increment(-1);
+                prgbar_rest.Increment(1);
             }
             else
             {
@@ -103,32 +104,21 @@ namespace WindowsFormsApplication1
         // When the Phidget is reading an RFID...
         public void rfid_Tag(object sender, TagEventArgs e)
         {
-            if (rfid.tag.Equals("0106932b02")) // black circle 
+            if (e.Tag.Equals("0106932b02")) 
             {
                 prgbar_food.Value = 100;
             }
-            else
+            else if (e.Tag.Equals("010693293c"))
             {
-                prgbar_food.Value = 100;
+                Pandy.PandyVisDesg_bodySensor();
             }
-            
-
-       /*     else if (e.Tag.Equals("0106934a43"))
-            {
-              
-            }
-
-            else
-            {
-   
-            }*/
 
         }
 
         //Tag lost event handler...here we simply want to clear our tag field in the GUI
         public void rfid_TagLost(object sender, TagEventArgs e)
         {
-
+            Pandy.PandyVisDesg_bodySensorOff();
 
         }
 

@@ -124,14 +124,11 @@
   <data name="vibrationmotor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vibrationmotor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="chargerport" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\chargerport.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PandyVisDesg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PandyVisDesg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="speakeron" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\speakeron.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chargerporton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chargerporton.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="rfid" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rfid.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,26 +136,32 @@
   <data name="speaker" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\speaker.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pressuresensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pressuresensor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="pressuresensoronblack - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pressuresensoronblack - Copy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vibrationmotoron" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vibrationmotoron.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="chargerport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chargerport.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="speaker1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\speaker.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pressuresensoron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pressuresensoron.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="rfidon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rfidon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PandyVisDesg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PandyVisDesg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pressuresensorblack - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pressuresensorblack - Copy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="chargerporton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\chargerporton.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pressuresensor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pressuresensor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vibrationmotoron" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vibrationmotoron.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cleanpandy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cleanpandy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,7 +169,7 @@
   <data name="pandy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pandy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pressuresensoron" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pressuresensoron.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bluecollar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bluecollar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
