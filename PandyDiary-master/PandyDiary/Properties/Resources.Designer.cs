@@ -60,9 +60,23 @@ namespace WindowsFormsApplication1.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap bamboo {
+            get {
+                object obj = ResourceManager.GetObject("bamboo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap bluecollar {
             get {
                 object obj = ResourceManager.GetObject("bluecollar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap bow {
+            get {
+                object obj = ResourceManager.GetObject("bow", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -88,6 +102,20 @@ namespace WindowsFormsApplication1.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap cupcake {
+            get {
+                object obj = ResourceManager.GetObject("cupcake", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap cupcake1 {
+            get {
+                object obj = ResourceManager.GetObject("cupcake1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap pandy {
             get {
                 object obj = ResourceManager.GetObject("pandy", resourceCulture);
@@ -98,6 +126,20 @@ namespace WindowsFormsApplication1.Properties {
         internal static System.Drawing.Bitmap PandyVisDesg {
             get {
                 object obj = ResourceManager.GetObject("PandyVisDesg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap present {
+            get {
+                object obj = ResourceManager.GetObject("present", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap present1 {
+            get {
+                object obj = ResourceManager.GetObject("present1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

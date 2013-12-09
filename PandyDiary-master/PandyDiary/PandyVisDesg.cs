@@ -22,17 +22,7 @@ namespace WindowsFormsApplication1
 
         private void PandyVisDesg_Load(object sender, EventArgs e)
         {
-         /*   rfid2 = new RFID();
-            rfid2.Attach += new AttachEventHandler(rfid2_Attach);
 
-            rfid2.Detach += new DetachEventHandler(rfid2_Detach);
-
-            //     rfid.Error += new ErrorEventHandler(rfid_Error);
-
-       //     rfid.Tag += new TagEventHandler(rfid_Tag);
-            rfid2.TagLost += new TagEventHandler(rfid2_TagLost);
-
-            rfid2.open();*/
         }
 
         public void PandyVisDesg_bodySensor()
@@ -47,38 +37,69 @@ namespace WindowsFormsApplication1
             CollarPictureLike.Visible = false; 
         }
 
-/*
-        // This code runs when you attach the RFID Phidget to your computer
-        public void rfid2_Attach(object sender, AttachEventArgs e)
+        public void PandyVisDesg_bambooFoodOn()
         {
-            RFID attached = (RFID)sender;
+            RFIDMouthOn.BringToFront();
+            BambooFood.Visible = true;
         }
 
-        // This code runs when you detach the RFID Phidget from your computer
-        //detach event handler...clear all the fields, display the attached status, and disable the checkboxes.
-        public void rfid2_Detach(object sender, DetachEventArgs e)
+        public void PandyVisDesg_bambooFoodOff()
         {
-            RFID detached = (RFID)sender;
+            RFIDMouthOff.BringToFront();
+            BambooFood.Visible = false;
+        }
+
+        public void PandyVisDesg_TouchSensorOn()
+        {
+            TouchSenBellyOn.BringToFront();
+            TouchSenHeadOn.BringToFront();
+            TouchSenLShoulderOn.BringToFront();
+            TouchSenRShoulderOn.BringToFront();
+        }
+
+        public void PandyVisDesg_TouchSensorOff()
+        {
+            TouchSenBellyOff.BringToFront();
+            TouchSenHeadOff.BringToFront();
+            TouchSenLShoulder.BringToFront();
+            TouchSenRShoulder.BringToFront();
+        }
+
+        public void PandyVisDesg_BodySensorNo()
+        {
+            RFIDBodyOn.BringToFront();
+            BowPic.Visible = true;
 
         }
 
-        // When the Phidget is reading an RFID...
-        public void rfid2_Tag(object sender, TagEventArgs e)
+        public void PandyVisDesg_BodySensorNoOff()
         {
-            if (e.Tag.Equals("010693293c")) // black circle 
-            {
-                RFIDBodyOn.BringToFront();
-            }
-
-        }
-
-        //Tag lost event handler...here we simply want to clear our tag field in the GUI
-        public void rfid2_TagLost(object sender, TagEventArgs e)
-        {
-
             RFIDBodyOff.BringToFront();
-        }
-        */
+            BowPic.Visible = false;
 
+        }
+
+        public void PandyVisDesg_PresentOn()
+        {
+            RFIDBodyOn.BringToFront();
+            PresentPic.Visible = true;
+        }
+
+
+        public void PandyVisDesg_PresentOff()
+        {
+            RFIDBodyOff.BringToFront();
+            PresentPic.Visible = false;
+        }
+
+        public void PandyVisDesg_cupcakeOn()
+        {
+            cupcakePic.Visible = true;
+        }
+
+        public void PandyVisDesg_cupcakeOff()
+        {
+            cupcakePic.Visible = false;
+        }
     }
 }

@@ -1,0 +1,36 @@
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary-master (1)\PandyDiary-master\PandyDiary\bin\Debug\PandyDiary.exe
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary-master (1)\PandyDiary-master\PandyDiary\bin\Debug\PandyDiary.pdb
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary-master (1)\PandyDiary-master\PandyDiary\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary-master (1)\PandyDiary-master\PandyDiary\obj\x86\Debug\WindowsFormsApplication1.PandyVisDesg.resources
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary-master (1)\PandyDiary-master\PandyDiary\obj\x86\Debug\WindowsFormsApplication1.PandyApp.resources
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary-master (1)\PandyDiary-master\PandyDiary\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary-master (1)\PandyDiary-master\PandyDiary\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary-master (1)\PandyDiary-master\PandyDiary\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary-master (1)\PandyDiary-master\PandyDiary\obj\x86\Debug\PandyDiary.exe
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary-master (1)\PandyDiary-master\PandyDiary\obj\x86\Debug\PandyDiary.pdb
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary1\PandyDiary-master\PandyDiary\obj\x86\Debug\PandyDiary.exe
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary1\PandyDiary-master\PandyDiary\obj\x86\Debug\PandyDiary.pdb
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary1\PandyDiary-master\PandyDiary\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary1\PandyDiary-master\PandyDiary\obj\x86\Debug\WindowsFormsApplication1.PandyVisDesg.resources
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary1\PandyDiary-master\PandyDiary\obj\x86\Debug\WindowsFormsApplication1.PandyApp.resources
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary1\PandyDiary-master\PandyDiary\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary1\PandyDiary-master\PandyDiary\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary1\PandyDiary-master\PandyDiary\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary1\PandyDiary-master\PandyDiary\bin\Debug\PandyDiary.exe
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary1\PandyDiary-master\PandyDiary\bin\Debug\PandyDiary.pdb
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary1\PandyDiary-master\PandyDiary\obj\x86\Debug\WindowsFormsApplication1.PandySocial.resources
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary1\PandyDiary-master\PandyDiary\obj\x86\Debug\WindowsFormsApplication1.PandyRest.resources
+C:\Users\balichmac1\Desktop\MPerry\PandyDiary1\PandyDiary-master\PandyDiary\obj\x86\Debug\WindowsFormsApplication1.PandyFood.resources
+C:\Users\hcilablaptop\Desktop\PandyDiary1\PandyDiary-master\PandyDiary\obj\x86\Debug\PandyDiary.exe
+C:\Users\hcilablaptop\Desktop\PandyDiary1\PandyDiary-master\PandyDiary\obj\x86\Debug\PandyDiary.pdb
+C:\Users\hcilablaptop\Desktop\PandyDiary1\PandyDiary-master\PandyDiary\bin\Debug\PandyDiary.exe
+C:\Users\hcilablaptop\Desktop\PandyDiary1\PandyDiary-master\PandyDiary\bin\Debug\PandyDiary.pdb
+C:\Users\hcilablaptop\Desktop\PandyDiary1\PandyDiary-master\PandyDiary\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\hcilablaptop\Desktop\PandyDiary1\PandyDiary-master\PandyDiary\obj\x86\Debug\WindowsFormsApplication1.PandyFood.resources
+C:\Users\hcilablaptop\Desktop\PandyDiary1\PandyDiary-master\PandyDiary\obj\x86\Debug\WindowsFormsApplication1.PandyRest.resources
+C:\Users\hcilablaptop\Desktop\PandyDiary1\PandyDiary-master\PandyDiary\obj\x86\Debug\WindowsFormsApplication1.PandySocial.resources
+C:\Users\hcilablaptop\Desktop\PandyDiary1\PandyDiary-master\PandyDiary\obj\x86\Debug\WindowsFormsApplication1.PandyVisDesg.resources
+C:\Users\hcilablaptop\Desktop\PandyDiary1\PandyDiary-master\PandyDiary\obj\x86\Debug\WindowsFormsApplication1.PandyApp.resources
+C:\Users\hcilablaptop\Desktop\PandyDiary1\PandyDiary-master\PandyDiary\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\hcilablaptop\Desktop\PandyDiary1\PandyDiary-master\PandyDiary\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\hcilablaptop\Desktop\PandyDiary1\PandyDiary-master\PandyDiary\obj\x86\Debug\GenerateResource.write.1.tlog

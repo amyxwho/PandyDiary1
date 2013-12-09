@@ -28,6 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.cupcakePic = new System.Windows.Forms.PictureBox();
+            this.PresentPic = new System.Windows.Forms.PictureBox();
+            this.BowPic = new System.Windows.Forms.PictureBox();
+            this.BambooFood = new System.Windows.Forms.PictureBox();
             this.CollarPictureLike = new System.Windows.Forms.PictureBox();
             this.RFIDBodyOff = new System.Windows.Forms.PictureBox();
             this.TouchSenHeadOff = new System.Windows.Forms.PictureBox();
@@ -48,6 +52,10 @@
             this.VibrationOff = new System.Windows.Forms.PictureBox();
             this.VibrationOn = new System.Windows.Forms.PictureBox();
             this.PandyVisDesign = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.cupcakePic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PresentPic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BowPic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BambooFood)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CollarPictureLike)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RFIDBodyOff)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TouchSenHeadOff)).BeginInit();
@@ -69,6 +77,46 @@
             ((System.ComponentModel.ISupportInitialize)(this.VibrationOn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PandyVisDesign)).BeginInit();
             this.SuspendLayout();
+            // 
+            // cupcakePic
+            // 
+            this.cupcakePic.Image = global::WindowsFormsApplication1.Properties.Resources.cupcake1;
+            this.cupcakePic.Location = new System.Drawing.Point(425, 12);
+            this.cupcakePic.Name = "cupcakePic";
+            this.cupcakePic.Size = new System.Drawing.Size(162, 168);
+            this.cupcakePic.TabIndex = 24;
+            this.cupcakePic.TabStop = false;
+            this.cupcakePic.Visible = false;
+            // 
+            // PresentPic
+            // 
+            this.PresentPic.Image = global::WindowsFormsApplication1.Properties.Resources.present1;
+            this.PresentPic.Location = new System.Drawing.Point(414, 5);
+            this.PresentPic.Name = "PresentPic";
+            this.PresentPic.Size = new System.Drawing.Size(188, 212);
+            this.PresentPic.TabIndex = 23;
+            this.PresentPic.TabStop = false;
+            this.PresentPic.Visible = false;
+            // 
+            // BowPic
+            // 
+            this.BowPic.Image = global::WindowsFormsApplication1.Properties.Resources.bow;
+            this.BowPic.Location = new System.Drawing.Point(414, 5);
+            this.BowPic.Name = "BowPic";
+            this.BowPic.Size = new System.Drawing.Size(173, 212);
+            this.BowPic.TabIndex = 22;
+            this.BowPic.TabStop = false;
+            this.BowPic.Visible = false;
+            // 
+            // BambooFood
+            // 
+            this.BambooFood.Image = global::WindowsFormsApplication1.Properties.Resources.bamboo;
+            this.BambooFood.Location = new System.Drawing.Point(414, 5);
+            this.BambooFood.Name = "BambooFood";
+            this.BambooFood.Size = new System.Drawing.Size(173, 212);
+            this.BambooFood.TabIndex = 21;
+            this.BambooFood.TabStop = false;
+            this.BambooFood.Visible = false;
             // 
             // CollarPictureLike
             // 
@@ -161,6 +209,7 @@
             this.ChargerOff.Size = new System.Drawing.Size(47, 37);
             this.ChargerOff.TabIndex = 15;
             this.ChargerOff.TabStop = false;
+            this.ChargerOff.Visible = false;
             // 
             // ChargerOn
             // 
@@ -257,6 +306,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(666, 718);
+            this.Controls.Add(this.cupcakePic);
+            this.Controls.Add(this.PresentPic);
+            this.Controls.Add(this.BowPic);
+            this.Controls.Add(this.BambooFood);
             this.Controls.Add(this.CollarPictureLike);
             this.Controls.Add(this.RFIDBodyOff);
             this.Controls.Add(this.TouchSenHeadOff);
@@ -280,6 +333,10 @@
             this.Name = "PandyVisDesg";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.PandyVisDesg_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.cupcakePic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PresentPic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BowPic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BambooFood)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CollarPictureLike)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.RFIDBodyOff)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TouchSenHeadOff)).EndInit();
@@ -326,5 +383,9 @@
         private System.Windows.Forms.PictureBox TouchSenBellyOn;
         private System.Windows.Forms.PictureBox TouchSenBellyOff;
         private System.Windows.Forms.PictureBox CollarPictureLike;
+        private System.Windows.Forms.PictureBox BambooFood;
+        private System.Windows.Forms.PictureBox BowPic;
+        private System.Windows.Forms.PictureBox PresentPic;
+        private System.Windows.Forms.PictureBox cupcakePic;
     }
 }

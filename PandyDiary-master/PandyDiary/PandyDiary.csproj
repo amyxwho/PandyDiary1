@@ -40,6 +40,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,6 +51,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PandyFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PandyFood.Designer.cs">
+      <DependentUpon>PandyFood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PandyRest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PandyRest.Designer.cs">
+      <DependentUpon>PandyRest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PandySocial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PandySocial.Designer.cs">
+      <DependentUpon>PandySocial.cs</DependentUpon>
+    </Compile>
     <Compile Include="PandyVisDesg.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +89,21 @@
     <Compile Include="UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl2.Designer.cs">
+      <DependentUpon>UserControl2.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="PandyFood.resx">
+      <DependentUpon>PandyFood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PandyRest.resx">
+      <DependentUpon>PandyRest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PandySocial.resx">
+      <DependentUpon>PandySocial.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PandyVisDesg.resx">
       <DependentUpon>PandyVisDesg.cs</DependentUpon>
     </EmbeddedResource>
@@ -143,6 +177,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bluecollar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bamboo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\present.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\present1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cupcake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cupcake1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

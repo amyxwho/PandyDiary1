@@ -40,6 +40,7 @@
             this.timerSocial = new System.Windows.Forms.Timer(this.components);
             this.timerRest = new System.Windows.Forms.Timer(this.components);
             this.timerFood = new System.Windows.Forms.Timer(this.components);
+            this.graphTimer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,8 +63,9 @@
             this.prgbar_food.Size = new System.Drawing.Size(232, 37);
             this.prgbar_food.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.prgbar_food.TabIndex = 2;
-            this.prgbar_food.Maximum = 100;
-            this.prgbar_food.Value = 99;
+            this.prgbar_food.Maximum = 200;
+            this.prgbar_food.Value = 200;
+            this.prgbar_food.Click += new System.EventHandler(this.prgbar_food_Click);
             // 
             // prgbar_rest
             // 
@@ -72,8 +74,7 @@
             this.prgbar_rest.Size = new System.Drawing.Size(211, 37);
             this.prgbar_rest.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.prgbar_rest.TabIndex = 3;
-            this.prgbar_rest.Maximum = 100;
-            this.prgbar_rest.Value = 0;
+            this.prgbar_rest.Click += new System.EventHandler(this.prgbar_rest_Click);
             // 
             // prgbar_social
             // 
@@ -82,8 +83,9 @@
             this.prgbar_social.Size = new System.Drawing.Size(212, 37);
             this.prgbar_social.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.prgbar_social.TabIndex = 4;
-            this.prgbar_social.Maximum = 100;
-            this.prgbar_social.Value = 99;
+            this.prgbar_social.Maximum = 2000;
+            this.prgbar_social.Value = 2000;
+            this.prgbar_social.Click += new System.EventHandler(this.prgbar_social_Click);
             // 
             // lbl_social
             // 
@@ -128,30 +130,32 @@
             // timerSocial
             // 
             this.timerSocial.Enabled = true;
-            timerSocial.Interval = 1000;
+            this.timerSocial.Interval = 1000;
             this.timerSocial.Tick += new System.EventHandler(this.timerSocial_Tick);
-            timerSocial.Start();
+            // 
+            // timerRest
+            // 
+            this.timerRest.Enabled = true;
+            this.timerRest.Interval = 1000;
+            this.timerRest.Tick += new System.EventHandler(this.timerRest_Tick);
             // 
             // timerFood
             // 
             this.timerFood.Enabled = true;
-            timerFood.Interval = 1000;
+            this.timerFood.Interval = 1000;
             this.timerFood.Tick += new System.EventHandler(this.timerFood_Tick);
-            timerFood.Start();
-            //
-            //timerRest
-            //
-            this.timerRest.Enabled = true;
-            timerRest.Interval = 1000;
-            this.timerRest.Tick += new System.EventHandler(this.timerRest_Tick);
-            timerRest.Start();
+            // 
+            // timerFood
+            // 
+            this.graphTimer.Enabled = true;
+            this.graphTimer.Interval = 5000;
+            this.graphTimer.Tick += new System.EventHandler(this.graphTimer_Tick);
             // 
             // PandyApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(709, 380);
-            this.Load += new System.EventHandler(this.PandyApp_Load);
             this.Controls.Add(this.lbl_food);
             this.Controls.Add(this.lbl_rest);
             this.Controls.Add(this.lbl_social);
@@ -165,6 +169,7 @@
             this.MinimumSize = new System.Drawing.Size(725, 418);
             this.Name = "PandyApp";
             this.Text = "PandyDiary";
+            this.Load += new System.EventHandler(this.PandyApp_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -185,6 +190,7 @@
         private System.Windows.Forms.Timer timerSocial;
         private System.Windows.Forms.Timer timerRest;
         private System.Windows.Forms.Timer timerFood;
+        private System.Windows.Forms.Timer graphTimer;
     }
 }
 
